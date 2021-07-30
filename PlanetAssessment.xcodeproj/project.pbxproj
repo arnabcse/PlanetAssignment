@@ -560,7 +560,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development: Sabbir Alam (7X4FSB95X2)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				INFOPLIST_FILE = PlanetAssessment/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -568,8 +569,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.prototype.PlanetAssessment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.PlanetAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Team Development App - Dev Prof";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -580,7 +582,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development: Sabbir Alam (7X4FSB95X2)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				INFOPLIST_FILE = PlanetAssessment/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -588,8 +591,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.prototype.PlanetAssessment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.PlanetAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Team Development App - Dev Prof";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
